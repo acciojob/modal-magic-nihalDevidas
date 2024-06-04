@@ -10,6 +10,8 @@ openBtn.addEventListener("click",()=>{
 	modal.classList.remove("display-modal")
 })
 
-modal.addEventListener('click', ()=>{
-	modal.classList.add("display-modal")
+modal.addEventListener('click', (e)=>{
+	if(e.target === modal){
+		modal.classList.add("display-modal")
+	}
 })
