@@ -9,7 +9,14 @@
 	display:flex;
 	justify-content: center;
 	align-items:center;
+	display:block;
 }
 .display-modal{
 	display:none;
+}
+.modal-header{
+	background-color:lightcoral;
+}
+.modal-body{
+	background-color:lightcyan;
 }
